@@ -1,7 +1,11 @@
-body {background-color: #D3D3D3
+body {background-color: #D3D3D3;
 
 }
 
-h1, p, ul, li {color: #C71585
+h1, p, ul, li {color: #C71585;
+
+}
+
+p {color: #669900;
 
 }
