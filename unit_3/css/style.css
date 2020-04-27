@@ -5,7 +5,8 @@ h1 {
 body {
 	text-align: center;
 	font-family: helvetica, sans-serif;
-	background-image: url(straightpins.jpg);
+	background-image: url(images/straightpins.jpg);
+	background-size: cover;
 	background-color: #FFFFFF;
 }
 
