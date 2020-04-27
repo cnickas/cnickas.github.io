@@ -5,6 +5,6 @@ h1 {
 body {
 	text-align: center;
 	font-family: helvetica, sans-serif;
-	background: url("images/machine_notions.jpeg");
+	background: url("images/machine_notions.jpeg") ;
 	background-size: cover;
 }
