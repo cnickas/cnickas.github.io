@@ -1,14 +1,20 @@
-h1 {
+/*html {
+	background: url("../images/machine_notions.jpeg");
+	background-size: cover;
+	background-repeat: none;
+}
+*/
+h1, h2 {
 	text-align: center;
+	font-family: helvetica, sans-serif;
 }
 
 body {
-	text-align: center;
+	text-align: left;
 	font-family: helvetica, sans-serif;
-	
-	background-image: url("straightpins.jpg");
-	background-size: cover;
-	background-position: center;
-	background-color: #FFFFFF;
 }
 
+h3, ul {
+  text-align: left;
+  list-style: inside;
+}
