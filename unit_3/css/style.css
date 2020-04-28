@@ -4,6 +4,9 @@
 	background-repeat: none;
 }
 */
+nav {
+	text-align: right;
+}
 
 h1, h2 {
 	text-align: center;
