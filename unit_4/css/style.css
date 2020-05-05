@@ -26,7 +26,7 @@ header a {
 }
 
 body {
-	text-align: center;
+	text-align: left;
 	font-family: 'Vollkorn', serif;
 	font-size: 16px; /*1m = 16px*/
 	line-height: 1.5;
@@ -48,7 +48,7 @@ div {
 	border: 1em;
 }
 
-p {
+p, li {
 	font-family: 'Vollkorn', serif;
 	width: 30em;
 	margin-left: auto;
@@ -60,6 +60,7 @@ p {
 a {
 	color: #eb5ac2;
 	text-decoration: none;
+	border-bottom: 1px, solid, #eb5ac2;
 }
 
 h1 {
@@ -92,13 +93,9 @@ h3 {
 hr {
 	border: none;
 	width: 5em;
-	margin: 5em, auto;
+	margin: 1em, auto;
 	padding: 1px;
 	background-color: #eb5ac2;
-}
-
-ul {
-	list-style-type: none;
 }
 
 footer {
