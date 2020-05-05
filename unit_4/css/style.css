@@ -54,7 +54,7 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	word-wrap: break-word;
-    text-align: center;
+    text-align: left;
 }
 
 a {
@@ -72,8 +72,8 @@ h1 {
 img {
 	width: 70%;
 	opacity: 70%;
-	float: left;
-	margin-right: 1em;
+/*	float: left;
+	margin-right: 1em;*/
 }
 
 h2 {
