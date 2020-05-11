@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=Vollkorn:wght@400;700&display=swap');
 
+* {
+	padding: 0;
+	margin:0;
+}
+
 body {
 	background-color: #f5f5f5;
 	color: #373737;
 	font-family: 'Vollkorn', serif;
 	font-size: 16px; /*1m = 16px*/
 	line-height: 1.5;
-	text-align: left;
+/*	text-align: left;*/
 }
 
 header a {
@@ -15,7 +20,9 @@ header a {
 }
 
 #navbar {
-	background-color: #cccccc;
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
 	color: #373737;
 	font-weight: bold;
 	text-align: right;
@@ -27,22 +34,38 @@ h1, h2, h3, #navbar a {
 }
 
 h1 {
-	font-size: 8em;
+	font-size: 6em;
+	line-height: 1em;
+	margin: 2em 0 0 0;
+	padding: 0;
+	text-align: center;
 }
 
 h2 {
 	font-size: 1.5em;
+	line-height: 1em;
+	margin: 0 0 8em 0;
+	padding: 0;
+	text-align: center;
 }
 
-#home {
-	text-align: center;
-	padding-top: 8em;
-	padding-bottom: 8em;
+.picture {
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+.description {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+    margin: 20px;
 }
 
 h3 {
 	font-size: 2em;
-	line-height: 0em;
+	line-height: 3em;
 }
 
 hr {
@@ -51,12 +74,6 @@ hr {
 	padding: 1px;
 	width: 20em;
 	margin: 0 0 2em 0;
-}
-
-div {
-	margin: 0em;
-	padding: 1em;
-	border: 1em;
 }
 
 p, li {
@@ -70,16 +87,26 @@ a {
 	border-bottom: 1px, solid, #eb5ac2;
 }
 
-img{
+img {
 	width: 50%;
-	float: left;
-	margin-right: 1em;
+}
+
+#wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	margin: 0 auto;
+	width: 85%;
+}
+
+#one, #two, #three, #four {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 footer {
-	background-color: #cccccc;
+	background-color: #FF957E;
 	color: #484848;
-	font-size: 1em;
-	padding: 3em;
-	text-align: center;
+	border: 1px black solid;
+    padding: 20px;
 }
