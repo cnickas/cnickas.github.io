@@ -1,0 +1,91 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-color: #000000;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px; /*1m = 16px*/
+	line-height: 1.5em;
+}
+
+#navbar {
+	background-color: #ffb366;
+	font-weight: bold;
+	text-align: right;
+	text-transform:	uppercase;
+}
+
+#navbar a {
+	margin: 20px;
+	padding: 0, 10px;
+}
+
+#navbar img {
+	float: left;
+}
+
+#navbar a:hover {
+	background-color: pink;
+}
+
+a {
+	text-decoration: none;
+}
+
+#navbar img {
+	width: 100px;
+}
+
+#lander {
+	background-color: pink;
+	background: url(../images/rainbowcake.jpg) no-repeat, center, fixed;
+	background-size: cover;
+	background-height: 100%;
+	color: white;
+	width: auto;
+	padding: 50px;
+	text-align: center;
+}
+
+#message {
+	background-color: #ffd966;
+	padding: 50px;
+}
+
+#order {
+	background-color: #00b359;
+	padding: 50px;
+}
+
+#info {
+	background-color: #0099ff;
+	padding: 50px;
+}
+
+#location, #hours {
+	float: left;
+	margin: 0 50px 0 0;
+	border: 1px solid black;
+}
+
+ul {
+	list-style: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	background-color: #ffb366;
+	padding: 50px;
+	text-align: center;
+}
