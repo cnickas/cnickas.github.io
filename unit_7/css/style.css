@@ -11,6 +11,10 @@ body {
 	line-height: 1.5em;
 }
 
+div {
+	padding: 50px;
+}
+
 #navbar {
 	background-color: #ffb366;
 	font-weight: bold;
@@ -46,23 +50,19 @@ a {
 	background-height: 100%;
 	color: white;
 	width: auto;
-	padding: 50px;
 	text-align: center;
 }
 
 #message {
 	background-color: #ffd966;
-	padding: 50px;
 }
 
 #order {
 	background-color: #00b359;
-	padding: 50px;
 }
 
 #info {
 	background-color: #0099ff;
-	padding: 50px;
 }
 
 #location, #hours {
