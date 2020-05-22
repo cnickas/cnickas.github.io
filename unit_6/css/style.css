@@ -19,15 +19,16 @@ header a {
 }
 
 #navbar {
-	background-color: #ffffff;
+	background-color: none;
 	color: #373737;
 	font-weight: bold;
-    padding: 1.5em;
+	margin: 20px 0;
+    padding: 0 20px;
     position: fixed;
 	text-align: right;
 	text-transform: uppercase;
 	top: 0;
-	width: 85%;
+	width: 100%;
 }
 
 #navbar a:hover {
@@ -83,13 +84,14 @@ a {
 }
 
 img {
+	border-radius: 25px;
 	width: 100%;
 }
 
 #wrapper {
 	background-color: #e8e8e8;
 	margin: 0 auto;
-	width: 85%;
+	width: 100%;
 }
 
 #one, #two, #three, #four {
