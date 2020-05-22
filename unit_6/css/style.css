@@ -67,6 +67,10 @@ hr {
 	margin: 0 0 2em 0;
 }
 
+ul {
+	list-style: none;
+}
+
 p, li {
 	font-family: 'Vollkorn', serif;
 	width: 30em;
