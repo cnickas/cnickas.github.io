@@ -27,6 +27,7 @@ body {
 #navbar img {
 	float: left;
 	height: 80px;
+	padding: 0;
 }
 
 #navbar a:hover {
@@ -37,6 +38,14 @@ h1, h2, h3, #navbar a {
 	font-family: 'Rubik', sans-serif;
 }
 
+h1, h2 {
+	text-shadow: 
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
 h1 {
 	font-size: 5em;
 	padding-bottom: .5em;
@@ -45,14 +54,6 @@ h1 {
 h2 {
 	font-size: 3.5em;
 	padding-top: .5em;
-}
-
-h1, h2 {
-	text-shadow: 
-		-2px -2px 0 #000,
-		2px -2px 0 #000,
-		-2px 2px 0 #000,
-		2px 2px 0 #000;
 }
 
 h3 {
@@ -93,6 +94,11 @@ a {
 #location, #hours {
 	float: left;
 	margin: 0 50px 0 0;
+	width: 20em;
+}
+
+p {
+	width: 40em;
 }
 
 ul {
