@@ -76,7 +76,7 @@ a {
 }
 
 #message, #order, #info {
-	padding: 8em;
+	padding: 8em 0 8em 15em;
 }
 
 #message {
