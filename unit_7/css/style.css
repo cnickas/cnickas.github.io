@@ -7,35 +7,75 @@
 }
 
 body {
+	background-color: #eff5f5;
 	font-color: #000000;
 	font-family: 'Karma', serif;
 	font-size: 16px; /*1m = 16px*/
 	line-height: 1.5em;
 }
 
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#navbar, h1, h2, h3, a {
+	font-family: 'Rubik', sans-serif;
+}
+
 #navbar {
-	background-color: #ffffff;
+	background-color: #eff5f5;
 	font-weight: bold;
+	padding: 1em;
 	text-align: right;
 	text-transform:	uppercase;
 }
 
 #navbar a {
-	margin: 20px 0;
-	padding: 20px;
+	margin: 0;
+	padding: .5em 2em;
 }
 
 #navbar img {
 	float: left;
-	height: 80px;
+	height: 5em;
 }
 
 #navbar a:hover {
 	background-color: pink;
 }
 
-h1, h2, h3, #navbar a {
-	font-family: 'Rubik', sans-serif;
+#lander {
+	background: url(../images/rainbowcake.jpg) no-repeat, center, fixed;
+	background-size: cover;
+	background-height: 100%;
+	color: pink;
+	padding: 15em;
+	text-align: center;
+}
+
+#message, #order, #info {
+	padding: 5em;
+}
+
+#message {
+	background-color: #eff5f5;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+#order {
+	background-color: #76b7ba;
+}
+
+#info {
+	background-color: #eff5f5;
+}
+
+#location, #hours {
+	float: left;
+	width: 20em;
 }
 
 h1, h2 {
@@ -60,44 +100,20 @@ h3 {
 	padding: 0 0 1em 0;
 }
 
+/*#message, #info, #order, */p, h3 {
+	width: 40em;
+	margin: 0 auto;
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
 }
 
-#lander {
-	background: url(../images/rainbowcake.jpg) no-repeat, center, fixed;
-	background-size: cover;
-	background-height: 100%;
-	color: pink;
-	padding: 15em;
-	text-align: center;
-	width: auto;
-}
-
-#message, #order, #info {
-	padding: 8em 0 8em 15em;
-}
-
-#message {
-	background-color: #eff5f5;
-}
-
-#order {
-	background-color: #76b7ba;
-}
-
-#info {
-	background-color: #eff5f5;
-}
-
-#location, #hours {
-	float: left;
-	width: 20em;
-}
-
-p {
-	width: 40em;
+#grubhub {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
 }
 
 ul {
@@ -114,7 +130,7 @@ ul {
 }
 
 footer {
-	background-color: pink;
-	padding: 50px;
+	background-color: #76b7ba;
+	padding: 3.5em;
 	text-align: center;
 }
