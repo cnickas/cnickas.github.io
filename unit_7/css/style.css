@@ -60,9 +60,6 @@ body {
 
 #message {
 	background-color: #eff5f5;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: center;
 }
 
 #order {
@@ -100,7 +97,7 @@ h3 {
 	padding: 0 0 1em 0;
 }
 
-/*#message, #info, #order, */p, h3 {
+p, h3, #both {
 	width: 40em;
 	margin: 0 auto;
 }
