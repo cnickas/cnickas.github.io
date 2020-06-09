@@ -26,30 +26,33 @@ body {
 #navbar {
 	background-color: #eff5f5;
 	font-weight: bold;
-	padding: 1em;
+	padding: .5em;
 	text-align: right;
 	text-transform:	uppercase;
 }
 
-#navbar a {
-	margin: 0;
-	padding: .5em 2em;
+#navlinks {
+	padding: 1.5em 0 0 0;
 }
 
-#navbar img {
+#navlinks a {
+	padding: 1.5em;
+}
+
+#logo img, #logo a {
 	float: left;
 	height: 5em;
 }
 
-#navbar a:hover {
-	background-color: pink;
+#navlinks a:hover {
+	background-color: #ffc0cb;
 }
 
 #lander {
 	background: url(../images/rainbowcake.jpg) no-repeat, center, fixed;
 	background-size: cover;
 	background-height: 100%;
-	color: pink;
+	color: #ffc0cb;
 	padding: 15em;
 	text-align: center;
 }
