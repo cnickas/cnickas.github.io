@@ -141,11 +141,11 @@ footer {
 
 @media only screen and (max-width: 900px) {
 	h1 {
-		font-size: 4em;
+		font-size: 200%;
 	}
 
 	h2 {
-		font-size: 2.5em;
+		font-size: 150%;
 	}
 }
 
@@ -163,7 +163,6 @@ footer {
 	}
 
 	#location, #hours {
-/*			float: none;*/
 			width: 20em;
 	}
 
@@ -180,16 +179,22 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 550px) {
-	#lander {
-		background: none;
-		background-color: #76b7ba;
-		padding: 2em .5em 1em .5em;
+@media only screen and (max-width: 400px) {
+	p, h3, #both {
+    	width: 15em;
+    	margin: 0 auto;
 	}
 
 	#logo img, #logo a {
 		float: none;
 		align-items: center;
+	}
+
+	#lander {
+		background: none;
+		background-color: #76b7ba;
+		padding: 2em .5em 1em .5em;
+		width: 100%;
 	}
 
 	#navbar {
@@ -204,6 +209,11 @@ footer {
 		display: block;
 		float: none;
 	}
+
+	img#grubhub  {
+		width: 90%;
+	}
+
 }
 
 
