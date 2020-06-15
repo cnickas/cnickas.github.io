@@ -171,7 +171,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 670px) {
 	#location, #hours {
 			float: none;
 			margin: 0 auto;
@@ -179,21 +179,9 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 575px) {
 	p, h3, #both {
     	width: 15em;
-    	margin: 0 auto;
-	}
-
-	#logo {
-		background-color: #76b7ba;
-	}
-
-	#logo img, #logo a {
-		background-color: #76b7ba;
-		float: none;
-		align-items: center;
-		height: 10em;
 	}
 
 	#lander {
@@ -207,6 +195,17 @@ footer {
 		text-transform:	uppercase;
 	}
 
+	#logo {
+		background-color: #76b7ba;
+	}
+
+	#logo img, #logo a {
+		background-color: #76b7ba;
+		float: none;
+		align-items: center;
+		height: 10em;
+	}
+
 	#navlinks, #navlinks a {
 		display: block;
 		float: none;
@@ -217,14 +216,6 @@ footer {
 	}
 
 }
-
-
-
-
-
-
-
-
 
 
 
