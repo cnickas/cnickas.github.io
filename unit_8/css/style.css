@@ -185,16 +185,19 @@ footer {
     	margin: 0 auto;
 	}
 
+	#logo {
+		background-color: #76b7ba;
+	}
+
 	#logo img, #logo a {
+		background-color: #76b7ba;
 		float: none;
 		align-items: center;
+		height: 10em;
 	}
 
 	#lander {
-		background: none;
-		background-color: #76b7ba;
-		padding: 2em .5em 1em .5em;
-		width: 100%;
+		display: none;
 	}
 
 	#navbar {
@@ -211,7 +214,7 @@ footer {
 	}
 
 	img#grubhub  {
-		width: 90%;
+		width: 100%;
 	}
 
 }
