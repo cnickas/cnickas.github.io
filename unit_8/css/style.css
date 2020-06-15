@@ -181,7 +181,7 @@ footer {
 
 @media only screen and (max-width: 575px) {
 	p, h3, #both {
-    	width: 15em;
+    	width: 20em;
 	}
 
 	#lander {
