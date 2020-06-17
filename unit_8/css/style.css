@@ -26,7 +26,6 @@ body {
 #navbar {
 	background-color: #eff5f5;
 	font-weight: bold;
-	padding: .5em;
 	text-align: right;
 	text-transform:	uppercase;
 }
@@ -58,7 +57,7 @@ body {
 }
 
 #message, #order, #info {
-	padding: 5em;
+	padding-bottom: 3em;
 }
 
 #message {
@@ -73,16 +72,18 @@ body {
 	background-color: #eff5f5;
 }
 
+#message, #order, #info {
+	padding-bottom: 3.5em;
+}
+
 #location, #hours {
 	float: left;
-	width: 20em;
+	width: 12em;
+	padding-left: 10em;
 }
 
-div {
-	padding: 0 0 1em 0;
-}
 
-h1, h2 {
+h1, h3 {
 	text-shadow: 
 		-2px -2px 0 #000,
 		2px -2px 0 #000,
@@ -96,17 +97,20 @@ h1 {
 }
 
 h2 {
+	margin: 0 auto;
+	padding-top: 3em;
+	width: 30em;
+}
+
+h3 {
 	font-size: 3.5em;
 	padding-top: .5em;
 }
 
-h3 {
-	padding: 0 0 1em 0;
-}
-
-p, h3, #both {
+p {
 	width: 40em;
 	margin: 0 auto;
+	margin-top: 1em;
 }
 
 a {
@@ -116,8 +120,7 @@ a {
 
 #grubhub {
 	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
+	margin: 0 auto;
 }
 
 ul {
@@ -135,7 +138,7 @@ ul {
 
 footer {
 	background-color: #76b7ba;
-	padding: 3.5em;
+	padding: 2em;
 	text-align: center;
 }
 
@@ -144,43 +147,43 @@ footer {
 		font-size: 400%;
 	}
 
-	h2 {
+	p, h2 {
+		padding: 1em;
+		width: 80%;
+	}
+
+	h3 {
 		font-size: 250%;
-	}
-}
-
-@media only screen and (max-width: 800px) {
-	#lander {
-		padding: 5em;
-	}
-
-	#info {
-		float: none;
-	}
-
-	#message, #order, #info {
-		padding: 2em;
 	}
 
 	#location, #hours {
-			width: 20em;
+		padding-left: 10%;
 	}
 
-	p, h3 {
-		width: 90%;
+
+
+@media only screen and (max-width: 800px) {
+	#lander {
+		padding: 15%;
+	}
+
+	#message, #order {
+		padding-bottom: 2em;
 	}
 }
 
 @media only screen and (max-width: 670px) {
 	#location, #hours {
-			float: none;
-			margin: 0 auto;
-			padding: 2em 0;
+			padding-left: 15%;
 	}
 }
 
 @media only screen and (max-width: 575px) {
-	p, h3, #both {
+	h2 {
+		font-size: 100%;
+	}
+
+	p, h2, #both {
     	width: 20em;
 	}
 
@@ -211,8 +214,12 @@ footer {
 		float: none;
 	}
 
-	img#grubhub  {
-		width: 100%;
+	#location, #hours {
+		padding-left: 25%;
+	}
+
+	#grubhub {
+		width: 90%;
 	}
 
 }
