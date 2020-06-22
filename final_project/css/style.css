@@ -62,7 +62,6 @@ body {
 #info {
 	background-color: #eff5f5;
 	margin: 0 auto;
-  	/*width: 60em;*/
 }
 
 #both {
@@ -76,6 +75,14 @@ body {
 #location {
 	width: 15em;
     text-align: left;
+}
+
+address {
+	padding-bottom: 2em;
+}
+
+#location p {
+	margin: 0;
 }
 
 #hours {
