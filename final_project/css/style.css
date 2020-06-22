@@ -70,6 +70,7 @@ body {
 
 .block {
 	display: inline-block;
+	vertical-align: top;
 }
 
 #location {
@@ -80,6 +81,7 @@ body {
 #location p {
 	margin: 0;
 	padding: 2em 0;
+	width: 10em;
 }
 
 #hours {
@@ -106,7 +108,7 @@ h1 {
 
 h2 {
 	margin: 0 auto;
-	padding-top: 3em;
+	padding: 3em 0 1em 0;
 	width: 30em;
 }
 
