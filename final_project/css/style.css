@@ -14,11 +14,6 @@ body {
 	line-height: 1.5em;
 }
 
-#wrapper {
-	margin: 0 auto;
-	width: 100%;
-}
-
 #navbar, h1, h2, h3, a {
 	font-family: 'Rubik', sans-serif;
 }
@@ -56,10 +51,6 @@ body {
 	text-align: center;
 }
 
-#message, #order, #info {
-	padding-bottom: 3em;
-}
-
 #message {
 	background-color: #eff5f5;
 }
@@ -70,18 +61,30 @@ body {
 
 #info {
 	background-color: #eff5f5;
-	margin: auto;
-  	width: 60em;
+	margin: 0 auto;
+  	/*width: 60em;*/
+}
+
+#both {
+	text-align: center;
+}
+
+.block {
+	display: inline-block;
+}
+
+#location {
+	width: 15em;
+    text-align: left;
+}
+
+#hours {
+	width: 15em;
+    text-align: left;
 }
 
 #message, #order, #info {
 	padding-bottom: 3.5em;
-}
-
-#location, #hours {
-	float: left;
-	width: 12em;
-	padding-left: 10em;
 }
 
 h1, h3 {
@@ -182,7 +185,9 @@ footer {
 
 @media only screen and (max-width: 670px) {
 	#location, #hours {
-			padding-left: 8%;
+		padding-left: 8%;
+		width: 50%;
+		margin: 0 auto;
 	}
 }
 
@@ -191,7 +196,7 @@ footer {
 		font-size: 1em;
 	}
 
-	p, h2, #both {
+	p, h2 {
     	width: 20em;
 	}
 
@@ -202,6 +207,7 @@ footer {
 	#lander {
 		display: none;
 	}
+
 	#navbar {
 		background-color: #eff5f5;
 		font-weight: bold;
@@ -234,6 +240,10 @@ footer {
 		height: 10em;
 	}
 
+	#grubhub {
+		width: 90%;
+	}
+
 	#info {
 		width: 90%;
 	}
@@ -244,27 +254,19 @@ footer {
 		float: none;
 	}
 
-	#grubhub {
-		width: 90%;
-	}
-
 	.footer p {
 		margin: 0;
 	}
 
 }
 
-@media only screen and (max-width: 384px) {
-	h2 {
-		margin: 0;
-	}
-}
-
-
-
 @media only screen and (max-width: 320px) {
 	p {
 		width: 90%;
+	}
+
+	#location, #hours {
+		width: 100%;
 	}
 
 }
