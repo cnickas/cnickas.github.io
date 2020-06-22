@@ -77,12 +77,9 @@ body {
     text-align: left;
 }
 
-address {
-	padding-bottom: 2em;
-}
-
 #location p {
 	margin: 0;
+	padding: 2em 0;
 }
 
 #hours {
