@@ -26,9 +26,57 @@ section {
 	padding: 1em;
 }
 
+h2 {
+	text-align: center;
+}
+
 img {
 	width: 500px;
 }
+
+
+
+
+
+
+/*about*/
+
+#portrait img, #bio p {
+	display: block;
+	float: left;
+	padding: 2em 1em;
+	width: 42%;
+}
+
+
+
+
+/*masks*/
+
+#products {
+	/*margin: 0 auto;*/
+}
+
+
+#kids, #adults, #specialty {
+	background: white;
+	margin: 0 auto;
+	width: 50%;
+}
+
+h3 {
+	text-align: center;
+	padding: 1em 0;
+}
+
+#kids img, #adults img, #specialty img {
+	padding-bottom: 2em;
+	width: 100%;
+}
+
+
+
+
 
 .clearfix:after {
 	visibility: hidden;
