@@ -232,7 +232,8 @@ footer {
 
 	#navlinks a {
 		background-color: #ffc0cb;
-		border: 1px solid #eff5f5;
+		border-top: 2px solid #eff5f5;
+
 	}
 
 	#logo {
