@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: teal;
+	background-color: #D0D9D7;
 	font-color: blue;
 	font-size: 16px; /*1m = 16px*/
 	line-height: 1.5em;
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-	background-color: pink;
+	/*background-color: pink;*/
 }
 
 nav {
@@ -22,7 +22,7 @@ nav {
 }
 
 section {
-	background-color: red;
+	/*background-color: red;*/
 	padding: 1em;
 }
 
@@ -34,12 +34,20 @@ img {
 	width: 500px;
 }
 
+footer {
+	background-color: #A4D6CA;
+}
+
 
 
 
 
 
 /*about*/
+
+#portrait img {
+	border-radius: 50%;
+}
 
 #portrait img, #bio p {
 	display: block;
@@ -59,7 +67,6 @@ img {
 
 
 #kids, #adults, #specialty {
-	background: white;
 	margin: 0 auto;
 	width: 50%;
 }

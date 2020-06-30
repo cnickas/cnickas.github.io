@@ -19,7 +19,6 @@ body {
 }
 
 #navbar {
-	background-color: #eff5f5;
 	font-weight: bold;
 	text-align: right;
 	text-transform:	uppercase;
@@ -51,20 +50,15 @@ body {
 	text-align: center;
 }
 
-#message {
-	background-color: #eff5f5;
+#message, #order, #info {
+	padding: 3.5em 0;
 }
 
 #order {
 	background-color: #76b7ba;
 }
 
-#info {
-	background-color: #eff5f5;
-	margin: 0 auto;
-}
-
-#both {
+h2, #both {
 	text-align: center;
 }
 
@@ -73,24 +67,13 @@ body {
 	vertical-align: top;
 }
 
+#location, #location p, #hours{
+	width: auto;
+    text-align: left;
+}
+
 #location {
-	width: 15em;
-    text-align: left;
-}
-
-#location p {
-	margin: 0;
-	padding: 2em 0;
-	width: 10em;
-}
-
-#hours {
-	width: 15em;
-    text-align: left;
-}
-
-#message, #order, #info {
-	padding-bottom: 3.5em;
+	padding-right: 5em;
 }
 
 h1, h3 {
@@ -106,20 +89,14 @@ h1 {
 	padding-bottom: .5em;
 }
 
-h2 {
-	margin: 0 auto;
-	padding: 3em 0 1em 0;
-	width: 30em;
-}
-
 h3 {
 	font-size: 3.5em;
 	padding-top: .5em;
 }
 
 p {
-	width: 40em;
-	margin: 0 auto;
+	width: 30em;
+	margin: auto;
 	margin-top: 1em;
 }
 
@@ -157,14 +134,6 @@ footer {
 		font-size: 400%;
 	}
 
-	h2 {
-		padding-bottom:.5em;
-	}
-
-	p, h2 {
-		width: 80%;
-	}
-
 	h3 {
 		font-size: 250%;
 	}
@@ -172,12 +141,7 @@ footer {
 	p {
 		padding-top: .5em;
 	}
-
-	#location, #hours {
-		padding-left: 10%;
-	}
-
-
+}
 
 @media only screen and (max-width: 800px) {
 	#lander {
@@ -189,23 +153,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 670px) {
-	#location, #hours {
-		padding-left: 8%;
-		width: 50%;
-		margin: 0 auto;
-	}
-}
-
 @media only screen and (max-width: 575px) {
-	h2 {
-		font-size: 1em;
-	}
-
-	p, h2 {
-    	width: 20em;
-	}
-
 	div {
 		margin: 0 auto;
 	}
@@ -215,10 +163,7 @@ footer {
 	}
 
 	#navbar {
-		background-color: #eff5f5;
-		font-weight: bold;
 		text-align: center;
-		text-transform:	uppercase;
 	}
 
 	#navlinks {
@@ -233,7 +178,6 @@ footer {
 	#navlinks a {
 		background-color: #ffc0cb;
 		border-top: 2px solid #eff5f5;
-
 	}
 
 	#logo {
@@ -247,37 +191,29 @@ footer {
 		height: 10em;
 	}
 
+	p {
+		width: 90%;
+	}
+
 	#grubhub {
 		width: 90%;
-	}
-
-	#info {
-		width: 90%;
-	}
-
-	#location, #hours {
-		padding-left: 4%;
-		display: block;
-		float: none;
 	}
 
 	.footer p {
 		margin: 0;
 	}
-
 }
 
-@media only screen and (max-width: 320px) {
-	p {
-		width: 90%;
+@media only screen and (max-width: 392px) {
+	.block {
+		display: block;
+		padding: 1em;
 	}
 
 	#location, #hours {
-		width: 100%;
+		padding-left: 25%
 	}
-
 }
-
 
 
 
