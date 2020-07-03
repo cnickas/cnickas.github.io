@@ -8,35 +8,41 @@
 
 body {
 	background-color: #D0D9D7;
-	font-color: blue;
+	color: #052622;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px; /*1m = 16px*/
 	line-height: 1.5em;
 	margin: 0 auto;
-
 }
 
 header {
-	background-color: inherit;
 	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 }
 
-nav {
-	/*background-color: blue;*/
+.masterhead {
 	border-bottom: 1px solid black;
-	/*font-weight: bold;*/
+}
+
+nav {
 	padding: 1em 0;
 	text-align: right;
 }
 
 nav a {
+	color: #052622;
 	padding: 0 2em;
+	margin: 1em;
+	text-decoration: none;
 }
+
+/*.navbar a:hover {
+	background-color: #80E3D7;
+}*/
 
 h1 {
 	float: left;
-	padding: .5em 0 0 3em;
+	padding: .5em 0 0 1em;
 }
 
 section {
@@ -50,7 +56,7 @@ h2 {
 
 #hello, #about {
 	margin: auto;
-	width: 30em;
+	width: 40em;
 }
 
 img {
@@ -58,14 +64,16 @@ img {
 }
 
 footer {
-	background-color: #A4D6CA;
+	/*background-color: #A4D6CA;*/
+	font-weight: bold;
+	padding: 3em 0;
 	text-align: center;
 }
 
 
 
 
-/*about*/
+/*index*/
 
 #portrait img {
 	border-radius: 50%;
