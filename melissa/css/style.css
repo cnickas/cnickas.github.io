@@ -95,6 +95,12 @@ footer {
 	/*margin: 0 auto;*/
 }
 
+.mask {
+	background-color: #FAFFF7;
+	border-radius: 8px;
+	margin-bottom: 2em;
+	padding: 2em 1.5em 5em 1.5em;
+}
 
 #kids, #adults, #specialty {
 	margin: 0 auto;
@@ -107,7 +113,7 @@ h3 {
 }
 
 #kids img, #adults img, #specialty img {
-	padding-bottom: 2em;
+	border-radius: 8px;
 	width: 100%;
 }
 
