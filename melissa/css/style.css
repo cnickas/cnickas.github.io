@@ -30,10 +30,10 @@ nav {
 }
 
 nav a {
-	background: blue;
+	/*background: blue;*/
 	color: #052622;
 	padding: 0 1em;
-	margin: 1em;
+	margin-right: 1em;
 	text-decoration: none;
 }
 
