@@ -8,7 +8,7 @@
 
 body {
 	background-color: #D0D9D7;
-	color: #052622;
+	color: #000000;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px; /*1m = 16px*/
 	line-height: 1.5em;
@@ -30,15 +30,12 @@ nav {
 }
 
 nav a {
+	background: blue;
 	color: #052622;
-	padding: 0 2em;
+	padding: 0 1em;
 	margin: 1em;
 	text-decoration: none;
 }
-
-/*.navbar a:hover {
-	background-color: #80E3D7;
-}*/
 
 h1 {
 	float: left;
@@ -91,18 +88,20 @@ footer {
 
 /*masks*/
 
-#products {
-	/*margin: 0 auto;*/
-}
-
 .mask {
 	background-color: #FAFFF7;
 	border-radius: 8px;
 	margin-bottom: 2em;
-	padding: 2em 1.5em 5em 1.5em;
+	padding: 2em 1.5em 1em 1.5em;
 }
 
-#kids, #adults, #specialty {
+.mask p {
+	padding: 1.5em 1em 1.5em 0;
+	text-align: right;
+
+}
+
+#kids, #adult, #specialty {
 	margin: 0 auto;
 	width: 50%;
 }
@@ -112,7 +111,7 @@ h3 {
 	padding: 1em 0;
 }
 
-#kids img, #adults img, #specialty img {
+#kids img, #adult img, #specialty img {
 	border-radius: 8px;
 	width: 100%;
 }
